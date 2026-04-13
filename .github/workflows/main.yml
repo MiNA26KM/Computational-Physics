@@ -12,7 +12,7 @@ jobs:
     # --- TA SEKCJA JEST KLUCZOWA ---
     defaults:
       run:
-        working-directory: Dynamic Systems/Rossler Attractor/
+        working-directory: Dynamic Systems/Rossler Attractor
     # -------------------------------
 
     steps:
