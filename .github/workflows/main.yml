@@ -9,11 +9,11 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    # --- TA SEKCJA JEST KLUCZOWA ---
+    
+    # Ustawiamy folder ze spacjami w cudzysłowie
     defaults:
       run:
-        working-directory: Dynamic Systems/Rossler Attractor
-    # -------------------------------
+        working-directory: "Dynamical Systems/Rossler Attractor"
 
     steps:
       - name: Checkout code
